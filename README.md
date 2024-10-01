@@ -93,20 +93,20 @@ As classes concretas implementam as interfaces e representam produtos específic
 GamingPC e Workstation para computadores.
 AndroidPhone e iPhone para smartphones.
 
-**3. Fábricas**
+**3. Fábricas**  
 As fábricas implementam a interface IProductFactory, que define os métodos para criar produtos.
 
 GamingProductFactory: Cria um GamingPC e um AndroidPhone.
 WorkstationProductFactory: Cria uma Workstation e um iPhone.
 
-**4. Gerenciador de Estoque**
+**4. Gerenciador de Estoque**  
 A classe InventoryManager gerencia as listas de produtos, permitindo adicionar e exibir o inventário.
 
-**5. Cliente**
+**5. Cliente**  
 O Program.cs é o ponto de entrada do aplicativo, onde as fábricas são utilizadas para criar produtos e gerenciar o inventário.
 
-**Contribuição**
+**Contribuição**  
 Se você deseja contribuir para este projeto, fique à vontade para abrir issues ou pull requests. Sua contribuição é bem-vinda!
 
-**Licença**
+**Licença**  
 Este projeto está licenciado sob a MIT License.
