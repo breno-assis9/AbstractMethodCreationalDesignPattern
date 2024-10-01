@@ -81,7 +81,7 @@ iPhone: A15 Bionic, 6GB RAM
 ```
 
 **Estrutura do Código**
-**1. Interfaces de Produtos**
+**1. Interfaces de Produtos**  
 As interfaces IComputer e ISmartphone definem o contrato para as classes que representam diferentes produtos.
 
 IComputer: Interface para computadores.
