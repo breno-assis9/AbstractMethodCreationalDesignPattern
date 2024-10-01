@@ -39,24 +39,23 @@ dotnet restore
 Estrutura do Projeto
 A estrutura do projeto é a seguinte:
 
-Copiar código
 ElectronicsStore/
-│
-├── Products/
-│   ├── IComputer.cs
-│   ├── ISmartphone.cs
-│   ├── GamingPC.cs
-│   ├── Workstation.cs
-│   ├── AndroidPhone.cs
-│   └── iPhone.cs
-│
-├── Factories/
-│   ├── IProductFactory.cs
-│   ├── GamingProductFactory.cs
-│   └── WorkstationProductFactory.cs
-│
-├── InventoryManager.cs
-└── Program.cs
+- ├── Products/
+- │   ├── IComputer.cs
+- │   ├── ISmartphone.cs
+- │   ├── GamingPC.cs
+- │   ├── Workstation.cs
+- │   ├── AndroidPhone.cs
+- │   └── iPhone.cs
+- │
+- ├── Factories/
+- │   ├── IProductFactory.cs
+- │   ├── GamingProductFactory.cs
+- │   └── WorkstationProductFactory.cs
+- │
+- ├── InventoryManager.cs
+- └── Program.cs
+
 Como Usar
 Compile o projeto:
 
